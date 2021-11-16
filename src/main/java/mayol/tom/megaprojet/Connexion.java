@@ -1,6 +1,6 @@
 package mayol.tom.megaprojet;
 
-public class Conexion {
+public class Connexion {
 
     public void testTOM(){
 
