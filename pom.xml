@@ -107,7 +107,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>mayol.tom.megaprojet/mayol.tom.megaprojet.HelloApplication</mainClass>
+                            <mainClass>mayol.tom.megaprojet/mayol.tom.megaprojet.BigProjet</mainClass>
                         </configuration>
                     </execution>
                 </executions>
