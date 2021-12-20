@@ -1,4 +1,5 @@
 package mayol.tom.megaprojet;
 
-public class HomeView {
+public class Profil {
+
 }
