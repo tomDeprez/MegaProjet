@@ -8,7 +8,7 @@
         <datasource-mapping>
           <factory-entry name="Default2" value="37ec7686-c02d-4a41-a580-d8c267866923" />
           <factory-entry name="MegaProjet" value="37ec7686-c02d-4a41-a580-d8c267866923" />
-          <factory-entry name="ours" value="37ec7686-c02d-4a41-a580-d8c267866923" />
+          <factory-entry name="ours" value="bfc17c25-5055-43b5-a6aa-bac81020b0b1" />
         </datasource-mapping>
         <naming-strategy-map>
           <unit-entry name="default" />
@@ -73,8 +73,6 @@
     <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.7" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet.staxex:stax-ex:1.8" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.15" level="project" />
-    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" level="project" />
-    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.1" level="project" />
   </component>
