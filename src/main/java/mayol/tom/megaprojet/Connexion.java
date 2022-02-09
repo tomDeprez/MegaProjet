@@ -32,7 +32,12 @@ public class Connexion {
 
     public void connexionUser() {
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("default");
+//        EntityManager entityManager = Persistence
+//                .createEntityManagerFactory("ours")
+//                .createEntityManager();
+//        EntityTransaction entityTransaction = entityManager.getTransaction();
+
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("ours");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
 
