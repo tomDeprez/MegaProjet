@@ -9,7 +9,7 @@ module mayol.tom.megaprojet {
     requires org.kordamp.ikonli.javafx;
     requires eu.hansolo.tilesfx;
     requires java.sql;
-    requires javax.persistence;
+    requires java.persistence;
 
     opens mayol.tom.megaprojet to javafx.fxml;
     exports mayol.tom.megaprojet;

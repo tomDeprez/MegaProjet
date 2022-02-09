@@ -3,37 +3,29 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
-   <top>
-      <SplitPane dividerPositions="0.8377926421404682" prefHeight="35.0" prefWidth="600.0" stylesheets="@../../../css/connexion.css" BorderPane.alignment="CENTER">
-        <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="498.0">
-               <children>
-                  <MenuBar prefHeight="33.0" prefWidth="364.0" stylesheets="@../../../css/connexion.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                    <menus>
-                      <Menu mnemonicParsing="false" text="Home" />
-                      <Menu mnemonicParsing="false" styleClass="menu-item" text="Trading" />
-                      <Menu mnemonicParsing="false" styleClass="menu-item" text="Autres" />
-                    </menus>
-                  </MenuBar>
-               </children>
-            </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="40.0" prefWidth="160.0">
-               <children>
-                  <MenuBar prefHeight="34.0" prefWidth="96.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                    <menus>
-                      <Menu mnemonicParsing="false" text="Profil">
+<AnchorPane prefHeight="450" prefWidth="700" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mayol.tom.megaprojet.Home">
+    <children>
+        <SplitPane dividerPositions="0.11055276381909548" orientation="VERTICAL" prefHeight="400.0" prefWidth="700.0" styleClass="split-pane-divider" stylesheets="@../../../css/connexion.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <SplitPane dividerPositions="0.8506711409395973" prefHeight="40.0" prefWidth="600.0" style="-fx-background-color: darkgray;" styleClass="split-pane-divider" stylesheets="@../../../css/connexion.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <items>
-                          <MenuItem mnemonicParsing="false" text="Close" />
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="502.0">
+                                <Button fx:id="btnHome" onAction="#showHome" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: transparent;" text="Home" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                <Button fx:id="btnTrading" layoutX="130.0" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: transparent;" text="Trading" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                <Button fx:id="btnAutres" layoutX="251.0" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: transparent;" text="Autres" AnchorPane.bottomAnchor="-1.0" AnchorPane.topAnchor="0.0" />
+                            </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                <Button fx:id="btnProfil" onAction="#showProfil" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: transparent;" text="Profil" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                            </AnchorPane>
                         </items>
-                      </Menu>
-                    </menus>
-                  </MenuBar>
+                    </SplitPane>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label text="Home" />
                </children></AnchorPane>
-        </items>
-      </SplitPane>
-   </top>
-   <center>
-      <Label text="Nouveauté" BorderPane.alignment="CENTER" />
-   </center>
-</BorderPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

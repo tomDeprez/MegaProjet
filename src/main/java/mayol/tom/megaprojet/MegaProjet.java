@@ -15,8 +15,6 @@ public class MegaProjet extends Application {
         stage.setTitle("Petit ours brun!");
         stage.setScene(scene);
         stage.show();
-
-
     }
 
     public static void main(String[] args) {
