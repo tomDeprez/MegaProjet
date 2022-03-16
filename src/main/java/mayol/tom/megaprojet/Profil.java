@@ -1,7 +1,5 @@
 package mayol.tom.megaprojet;
 
-import com.dlsc.formsfx.model.util.ResourceBundleService;
-import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -23,9 +21,16 @@ import java.util.ResourceBundle;
 
 public class Profil implements Initializable {
 
+    @FXML
     public Button btnHome;
+
+    @FXML
     public Button btnTrading;
+
+    @FXML
     public Button btnAutres;
+
+    @FXML
     public Button btnProfil;
 
     private Stage stage;
@@ -37,6 +42,7 @@ public class Profil implements Initializable {
 
     @FXML
     protected void showProfil(ActionEvent event) throws IOException {
+
         Parent root = FXMLLoader.load(getClass().getResource("profil-view.fxml"));
         stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
 

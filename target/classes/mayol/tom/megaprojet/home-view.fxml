@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
 <AnchorPane prefHeight="450" prefWidth="700" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mayol.tom.megaprojet.Home">
     <children>
         <SplitPane dividerPositions="0.11055276381909548" orientation="VERTICAL" prefHeight="400.0" prefWidth="700.0" styleClass="split-pane-divider" stylesheets="@../../../css/connexion.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <items>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                <AnchorPane maxHeight="50.0" minHeight="50.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                     <SplitPane dividerPositions="0.8506711409395973" prefHeight="40.0" prefWidth="600.0" style="-fx-background-color: darkgray;" styleClass="split-pane-divider" stylesheets="@../../../css/connexion.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <items>
                             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="502.0">
@@ -23,7 +24,11 @@
                 </AnchorPane>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                <children>
-                  <Label text="Home" />
+                  <Label layoutX="309.0" layoutY="161.0" text="Home" />
+                  <ImageView fitHeight="52.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../../../img/home_img.png" />
+                     </image></ImageView>
                </children></AnchorPane>
             </items>
         </SplitPane>

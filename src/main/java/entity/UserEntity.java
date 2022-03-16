@@ -2,8 +2,9 @@ package entity;
 
 import javax.persistence.*;
 
-@Entity
+@Entity(name = "User")
 @Table(name = "user", schema = "ours")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class UserEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id

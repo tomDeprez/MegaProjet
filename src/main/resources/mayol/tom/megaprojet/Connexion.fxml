@@ -42,6 +42,7 @@
                                 </Label>
                             </children>
                         </AnchorPane>
+                  <Label fx:id="testLabel" alignment="CENTER" layoutX="161.0" layoutY="415.0" textFill="RED" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" />
                     </children>
                 </AnchorPane>
             </items>
